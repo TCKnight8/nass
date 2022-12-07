@@ -39,7 +39,7 @@ class NassApi(object):
         params.update({'key': self.key})
 
         try:
-            resp = self.http.get(api_url, params=params)
+            resp = self.http.get(api_url, params=params, headers = {'User-agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0'})
         except requests.RequestException:
             raise exceptions.NetworkException()
 
