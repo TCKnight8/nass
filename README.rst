@@ -1,4 +1,4 @@
-nass
+nass_sbw
 ====
 
 .. image:: https://img.shields.io/travis/nickfrostatx/nass.svg
