@@ -24,7 +24,7 @@ Installation
 
 .. code-block:: bash
 
-    $ pip install nass
+    $ pip install nass_sbw
 
 Usage
 -----
